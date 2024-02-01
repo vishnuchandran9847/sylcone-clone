@@ -1,10 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router ,Routes,Route } from 'react-router-dom';
-
-import Home from './Home/Home';
-import CartHeader from './AddToCart/CartHeader';
-import CartProduct from './CartProduct/CartProduct';
-import CheckOut from './CheckOut/CheckOut';
+ 
+import CartHeader from './Components/AddToCart/CartHeader';
+import CartProduct from './Components/CartProduct/CartProduct';
+import CheckOut from './Components/CheckOut/CheckOut';
+import Home from './Components/Home/Home';
+import "./assets/Css/Custom.css";
 
 
 

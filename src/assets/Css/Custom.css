@@ -1,0 +1,235 @@
+
+.left-arrow{
+    width: 20px;
+height: 20px;
+top: 5px;
+left: 5px;
+
+
+}
+
+.check-text{
+    width: 69px;
+height: 30px;
+top: 10px;
+left: 154px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: center;
+color: #242424;
+
+}
+
+.Address-text{
+    width: 137px;
+height: 30px;
+top: 28px;
+left: 28px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #242424;
+
+}
+.change-text{
+
+font-family: Inter;
+font-size: 12px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: right;
+color: #00AB67;
+
+
+}
+.text-box{
+    width: Fixed (319px);
+height: Hug (114px);
+top: 78px;
+left: 28px;
+padding: 40px;
+border-radius: 12px;
+border: 1px;
+gap: 28px;
+color: linear-gradient(0deg, #EBEBEB, #EBEBEB),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+border: 1px solid #EBEBEB;
+margin-left: 18px;
+margin-right: 18px;
+
+}
+.name-text{
+    width: 67px;
+height: 30px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: #242424;
+
+}
+.dot-text{
+    width: 7px;
+height: 30px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #242424;
+}
+
+.add-text{
+    width: 73px;
+    height: 25px;
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: #808080;
+}
+.content-text{
+    width: 279px;
+height: 40px;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: #808080;
+
+}
+.section-header{
+    width: 98px;
+height: 30px;
+top: 28px;
+left: 28px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #242424;
+}
+
+.Date-text{
+    width: 200px;
+height: 30px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #242424;
+
+}
+.date-content{
+    width: 77px;
+height: 20px;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: right;
+color: #808080;
+
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    text-align: right;
+}
+.Delivery-time{
+    width: 319px;
+height: 30px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #242424;
+
+}
+.badge{
+    width: 12px;
+height: 60px;
+left: 28px;
+border-radius: 6px;
+
+}
+.day-text{
+    width: 55px;
+height: 30px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #242424;
+}
+
+.time-text{
+    width: 122px;
+height: 20px;
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: #808080;
+}
+
+.round-1{
+width: 24px;
+height: 24px;
+top: 18px;
+left: 320px;
+border-radius: 15px;
+border: 7px;
+color: linear-gradient(0deg, #00AB67, #00AB67),
+linear-gradient(0deg, #FAFAFA, #FAFAFA);
+border: 7px solid #00AB67;
+
+
+}
+.content-text-1{
+    width: 146px;
+height: 30px;
+top: 15px;
+left: 61px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #242424;
+
+
+}
+
+
+
+
