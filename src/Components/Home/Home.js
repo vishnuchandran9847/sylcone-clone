@@ -16,6 +16,8 @@ import Discover from "../../Components/Discover/Discover";
 import DiscoverProduct from "../../Components/DiscoverProducts/DiscoverProduct";
 import OrderPickup from "../../Components/OrderPickup/OrderPickup";
 import FooterSection from "../../Components/Footerscection/FooterSection";
+import { CiSearch } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 
 
@@ -24,7 +26,21 @@ function Home() {
     <div>
       
         <Header />
-        <Search />
+        <Link to="/search">
+          <div>
+
+      <div className="search-container">
+        <input
+          type="text"
+          placeholder="Search anything..."
+          className="search-bar"  /> 
+
+        <div className="search-icon">
+          <CiSearch />
+        </div>
+          </div>
+        </div>
+        </Link>
         <Banner />
         <Products />
         <Offers />

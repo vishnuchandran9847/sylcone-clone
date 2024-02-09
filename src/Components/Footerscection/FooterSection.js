@@ -10,6 +10,9 @@ import { IoMdHome } from "react-icons/io";
 import { IoReorderFour } from "react-icons/io5";
 import { BsCart3 } from "react-icons/bs";
 import { VscAccount } from "react-icons/vsc";
+import { GrHomeRounded } from "react-icons/gr";
+import { FaRegHeart } from "react-icons/fa";
+
 
 function FooterSection() {
   return (
@@ -39,7 +42,60 @@ function FooterSection() {
       {/* <div className='home-indicator flex flex-row justify-center items-center'></div> */}
       {/* <img className='' src={rectangle} alt="" /> */}
     </div>
+
+
+            
+            
+           
+         
+          
+
+
+
   );
 }
 
 export default FooterSection;
+
+{/* <div
+      className="bg-white bottom-0 start-50 translate-middle-x w-100  fixed user-select-none Vendor-fixed py-3 px-3 mobile-footer-container"
+      style={{ borderTopLeftRadius: "25px", borderTopRightRadius: "25px" }}
+    >
+      <div className="flex flex-row justify-between items-center ">
+        <a href={home} className="relative b-r-10 p-2   ">
+          <div className="flex flex-col justify-center items-center h-100  ">
+            
+              <GrHomeRounded style={{ stroke: "black" }} size={22} />
+
+          </div>
+        </a>
+        <a href={favorites} className="relative b-r-10 p-2 ">
+          <div className="flex flex-col justify-center items-center h-100 ">
+            
+              <FaRegHeart size={22} style={{ color: "black" }} />
+           
+          </div>
+        </a>
+        <a href={search} className="relative b-r-10 p-2  ">
+          <div className="flex flex-col justify-center items-center h-100 ">
+          
+              <FiSearch size={22} style={{ color: "black" }} />
+           
+          </div>
+        </a>
+        <a href={notification} className="relative b-r-10 p-2  ">
+          <div className="flex flex-col justify-center items-center h-100 ">
+           
+              <PiBellBold size={22} style={{ color: "black" }} />
+         
+          </div>
+        </a>
+        <a href={cart} className="relative b-r-10 p-2  ">
+          <div className="flex flex-col justify-center items-center h-100 ">
+          
+              <FiShoppingBag size={22} style={{ color: "black" }} />
+            
+          </div>
+        </a>
+      </div>
+      </div> */}

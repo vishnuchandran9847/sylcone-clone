@@ -19,6 +19,8 @@ import moveicon from "../CartImages/Icon (3).png";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { addCart, removeCart } from "../../ReduxAPI/Slice/CartSlice";
+import { Link } from "react-router-dom";
+import CheckOut from "../CheckOut/CheckOut";
 
 function CartProduct() {
   const dispatch = useDispatch();
@@ -223,7 +225,7 @@ function CartProduct() {
 
           <div className="flex flex-row justify-between px-6 py-2">
             <div>Deliver Charge</div>
-            <div>$3.99</div>
+            <div>Free</div>
           </div>
 
           <div className="flex flex-row justify-between px-6 py-2">
@@ -231,19 +233,21 @@ function CartProduct() {
             <div>Free</div>
           </div>
 
-          <div className="flex flex-row justify-center">
+          {/* <div className="flex flex-row justify-center">
             ------------------------------------------------------------------
-          </div>
+          </div> */}
 
           <div className="flex flex-row justify-between px-6">
             <div className="font-bold text-xl">Sub Total</div>
             <div className="font-bold text-xl text-red-500">{parseFloat(cartProducts?.totalAmount).toFixed(2)}</div>
           </div>
         </div>
-        <div className=" relative m-auto rounded-xl border border-green-900 bg-green-800  h-20 w-90 p-4">
+        <div className=" relative ml-8 mr-8 rounded-xl border border-green-900 bg-green-800  h-12 w-90">
+          <Link to={'/checkout'}>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-lg">
             Continue
           </div>
+          </Link>
         </div>
       </div>
     </div>
