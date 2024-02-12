@@ -16,6 +16,7 @@ import { addCart, removeCart } from "../../ReduxAPI/Slice/CartSlice";
 import { IoIosCloseCircle } from "react-icons/io";
 import addbutton from "../../assets/images/Button.png";
 import deletebutton from "../CartImages/Button (6).png";
+import FooterSection from "../Footerscection/FooterSection";
 
 function CheckOut() {
 
@@ -382,7 +383,7 @@ function CheckOut() {
         </div>
 
 
-        <div className=" relative ml-8 mr-8 rounded-xl border border-green-900 bg-green-800  h-12 w-90">
+        <div className=" relative ml-8 mr-8 mb-12 rounded-xl border border-green-900 bg-green-800  h-12 w-90">
 
           <Link to={"/payment"}>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-lg">
@@ -391,6 +392,7 @@ function CheckOut() {
           </Link>
         </div>
       </div>
+      <FooterSection/>
     </div>
   );
 }

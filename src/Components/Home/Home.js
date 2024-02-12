@@ -5,7 +5,6 @@ import Banner from "../../Components/Banner/Banner";
 import Products from "../../Components/Products/Products";
 import Offers from "../../Components/Offers/Offers";
 import Featproducts from "../../Components/Featproducts/Featproducts";
-import OfferDeals from "../../Components/Deals/OfferDeals";
 import Viewproduct from "../../Components/ViewAllproduct/Viewproduct";
 import PopularProducts from "../../Components/PopularProducts/PopularProducts";
 import SecondBanner from "../../Components/SecondBanner/SecondBanner";
@@ -18,6 +17,7 @@ import OrderPickup from "../../Components/OrderPickup/OrderPickup";
 import FooterSection from "../../Components/Footerscection/FooterSection";
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import OfferDeals from "../Deals/OfferDeals";
 
 
 
@@ -45,7 +45,7 @@ function Home() {
         <Products />
         <Offers />
         <Featproducts />
-        <OfferDeals />
+        <OfferDeals/>
         <Viewproduct />
         <PopularProducts />
         <SecondBanner />

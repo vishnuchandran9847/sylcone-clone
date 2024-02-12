@@ -17,24 +17,26 @@ import { FaRegHeart } from "react-icons/fa";
 function FooterSection() {
   return (
     
-      <div className="">
-        <div className="flex flex-row justify-around">
+      <div className="fixed bottom-0 w-full bg-white py-3">
+        <div className="flex flex-row justify-around w-full">
           {/* <img src={Home} alt="" /> */}
+          <Link to={"/"}>
           <div className="home-text">
-            <IoMdHome />
+            <IoMdHome size={25} />
           </div>
+          </Link>
           {/* <img src={order} alt="" /> */}
           <div className="order-text">
-            <IoReorderFour />
+            <IoReorderFour size={25} />
           </div>
 
           <Link to={"/cart"}>
             {/* <img src={cart} alt="" /> */}
-            <BsCart3 className="cart-text" />
+            <BsCart3 className="cart-text" size={25} />
           </Link>
           {/* <img src={account} alt="" /> */}
           <div className="account-text">
-            <VscAccount />
+            <VscAccount size={25} />
           </div>
         </div>
       

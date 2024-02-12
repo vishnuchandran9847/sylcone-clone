@@ -21,6 +21,7 @@ import { useParams } from "react-router-dom";
 import { addCart, removeCart } from "../../ReduxAPI/Slice/CartSlice";
 import { Link } from "react-router-dom";
 import CheckOut from "../CheckOut/CheckOut";
+import FooterSection from "../Footerscection/FooterSection";
 
 function CartProduct() {
   const dispatch = useDispatch();
@@ -242,7 +243,7 @@ function CartProduct() {
             <div className="font-bold text-xl text-red-500">{parseFloat(cartProducts?.totalAmount).toFixed(2)}</div>
           </div>
         </div>
-        <div className=" relative ml-8 mr-8 rounded-xl border border-green-900 bg-green-800  h-12 w-90">
+        <div className=" relative ml-8 mr-8 mb-12 rounded-xl border border-green-900 bg-green-800  h-12 w-90">
           <Link to={'/checkout'}>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold text-lg">
             Continue
@@ -250,6 +251,7 @@ function CartProduct() {
           </Link>
         </div>
       </div>
+      <FooterSection />
     </div>
   );
 }
